@@ -1,0 +1,12 @@
+{
+    "name": "teo/cvs-to-folders",
+    "authors": [
+        {
+            "name": "Theofilos Intzoglou",
+            "email": "int.teo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
