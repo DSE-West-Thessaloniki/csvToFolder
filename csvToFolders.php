@@ -12,7 +12,7 @@
  */
 
 $rest_index = null;
-$options = getopt("c:d:ho:", ["column:", "delimiter:", "header", "output"], $rest_index);
+$options = getopt("c:d:ho:", ["column:", "delimiter:", "header", "output:"], $rest_index);
 $remaining_args = array_slice($argv, $rest_index);
 if (!$options || !$remaining_args || count($remaining_args) > 1) {
     echo "Usage: cvsToFolders [Επιλογές] <filename.csv>\n";
